@@ -1,0 +1,45 @@
+*
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+h1
+{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container
+{
+    padding: 10px;
+    width: 50%;
+    margin: 100px 0px 0px;
+    border: 5px solid black;
+    background-color :cadetblue;
+}
+
+.list
+{
+    font-size: 30px;
+}
+
+.check
+{
+    position: relative;
+    bottom: 5px;
+    transform: scale(2);
+}
+
+.check:checked ~ span
+{
+    text-decoration:line-through;
+    opacity: 0.3;
+}
